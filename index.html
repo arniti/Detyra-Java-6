@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+<div class="header">
+    <img src="image/UBT.png" alt="UBT logo">
+    <ul class="header-list">
+        <li>Home</li>
+        <li>News</li>
+        <li>About</li>
+        <li>Contact us</li>
+    </ul>
+</div>
+<div class="content">
+    <div class="left-side">
+        <h1>Kjo faqe ndihmon ne krijimin e posteve per lajme.</h1>
+        <form action="" class='forma'>
+            <div>
+                <label>Titulli i lajmit:</label>
+                <input type="text" placeholder="Shkruaj titullin..." id='titulli-new' />
+
+            </div>
+            <label>Permbajtja e lajmit:</label>
+            <textarea type="textarea" id='permbajtja-new' placeholder="Shkruaj permbajtjen..."></textarea>
+            <div class='buttons'>
+                <button class='btn' id='cancel-btn'>cancel</button>
+                <button class='btn' name="" type="button" onclick="shtoLajmin()" id="submit-btn">posto </button>
+            </div>
+        </form>
+    </div>
+    <div class="right-side" id="news-container"></div>
+</div>
+<footer>
+    UBT - &copy; 2020 <a href="#">GitHub</a>
+</footer>
+<script src="main.js"></script>
+</body>
+
+</html>
