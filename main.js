@@ -19,7 +19,6 @@ function shtoLajmin() {
     var dataAktuale = document.createElement("h6");
     dataAktuale.innerHTML = data;
     var newNews = document.createElement("div");
-    newNews.style.backgroundColor = "blue";
    if(count < 4) {
        document.getElementById("news-container").appendChild(newNews);
        newNews.className = "form-group";
